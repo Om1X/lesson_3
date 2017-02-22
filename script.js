@@ -2,7 +2,7 @@ var regexp, str;
 
 // Поиск HTML - цвета
 str = "good-colors: #999; #223344; #CC22da; #fff bad-colors:f#fddee";
-regexp = /#([a-f0-9]{6}|[a-f]{3}|[0-9]{3})/gi;
+regexp = /#([a-f0-9]{6}|[a-f0-9]{3})/gi;
 console.log(str.match(regexp));
 
 // Поиск положительного числа в т.ч. и с десятичной точкой
